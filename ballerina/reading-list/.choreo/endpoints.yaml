@@ -32,7 +32,7 @@ endpoints:
     # +optional Context (base path) of the API that is exposed via this endpoint.
     # This is mandatory if the endpoint type is set to REST or GraphQL.
     context: /
-  - name: GraphQL Reading List
+  - name: GraphQL Reading List 2
     # +required Numeric port value that gets exposed via this endpoint
     port: 8123
     # +required Type of the traffic this endpoint is accepting. Example: REST, GraphQL, etc.
