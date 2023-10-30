@@ -33,6 +33,10 @@ import (
 func main() {
 
 	serverMux := http.NewServeMux()
+	envVal := os.Getenv("ENV_TEST")
+
+	fmt.Println(envVal)
+
 	serverMux.HandleFunc("/greeter/greet", greet)
 
 	serverPort := 9090
